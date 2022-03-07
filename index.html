@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        .left{
+            width: 50%;
+        }
+        .right{
+            width: 50%;
+            border: solid 1px black;
+        }
+    </style>
+    <div class="left">
+        <!-- Copy Me -->
+
+        <div style="width: 100%; height: 100%; margin: 0;"> 
+            <iframe id="swiftxrIframe" title="New swiftXR Project 1" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr camera; midi; encrypted-media"  xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="100%" height="100%" src="http://new-swiftxr-project-1-sgssssgggggg.netlify.app?swf=a"> 
+            </iframe>
+        </div>
+
+
+    </div>
+
+    <div class="right">
+        <div style="margin-top: 50px;"></div>
+        <p style="font-size: 24px;" id="itemName">Metaverse Ball</p>
+        <p style="margin-top: 20px;">Buy on Jumia</p>
+
+        <button id="btn1">Item 1</button>
+        <button id="btn2">Item 2</button>
+        <button id="btn3">Item 3</button>
+        <button id="btn4">Item 4</button>
+    </div>
+
+    <script>
+        const database = [
+            {
+                name: 'Metaverse Ball',
+                url: 'http://new-swiftxr-project-1-sgssssgggggg.netlify.app?swf=a'
+            },
+            {
+                name: 'Metaverse Box',
+                url: 'http://new-swiftxr-project-1-sgssssgggggg.netlify.app?swf=b'
+            },
+            {
+                name: 'Metaverse Hat',
+                url: 'http://new-swiftxr-project-1-sgssssgggggg.netlify.app?swf=c'
+            },
+            {
+                name: 'Metaverse Robotics',
+                url: 'http://new-swiftxr-project-1-sgssssgggggg.netlify.app?swf=d'
+            }
+        ]
+
+        const itemName = document.querySelector('#itemName');
+        const btn1 = document.querySelector('#btn1');
+        const btn2 = document.querySelector('#btn2');
+        const btn3 = document.querySelector('#btn3');
+        const btn4 = document.querySelector('#btn4');
+
+        const iframe = document.querySelector('#swiftxrIframe');
+
+        btn1.addEventListener('click',()=>{
+
+            itemName.innerHTML = database[0].name;
+            iframe.setAttribute('src',database[0].url)
+        });
+
+        btn2.addEventListener('click',()=>{
+
+            itemName.innerHTML = database[1].name;
+            iframe.setAttribute('src',database[1].url)
+        });
+
+        btn3.addEventListener('click',()=>{
+
+            itemName.innerHTML = database[2].name;
+            iframe.setAttribute('src',database[2].url)
+        });
+
+        btn4.addEventListener('click',()=>{
+
+            console.log("yo");
+            itemName.innerHTML = database[3].name;
+            iframe.setAttribute('src',database[3].url)
+        });
+
+
+
+
+    </script>
+</body>
+</html>
