@@ -49,9 +49,19 @@
             <p align="center">
     <a href="">
       <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR3.png?raw=true" width="350" height="532" />
+    </a>
+</p>
+<p align="center">
+   (a)
+    </p>
+<p align="center">
+    <a href="">
       <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR9.png?raw=true" width="350" height="532" />
     </a>
 </p>
+<p align="center">
+   (b)
+    </p>
           VI.  Then the models should be dragged and dropped in the box that says “Paste link or drag glb…”.
           <br />
           &nbsp;
