@@ -75,7 +75,7 @@
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR5.png?raw=true" width="1917" height="400" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR5.png?raw=true" width="1917" height="350" />
     </a>
 </p>
           VIII.  Once the link is successfully deployed, you can specifically call each Indexed Model by adding “ ‘/’ + ‘?’ + ${Model Swap Parameter} + ‘=’ + ${Index ID}” then press enter.
