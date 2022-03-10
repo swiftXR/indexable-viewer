@@ -26,7 +26,7 @@
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR1.png?raw=true" width="1917" height="550" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR1.png?raw=true" width="1917" height="400" />
     </a>
 </p>
           III. On the right, click on the “configurator tab”. Here, the Model Swap Parameter and Add Index Model button will be visible.
