@@ -1,6 +1,3 @@
-
-[//]: # "indexable-viewer"
-
 [//]: # "A sample website using SwiftXR Indexable viewer" 
 
 # What's new?
@@ -18,7 +15,7 @@
           I.  To start with, the “indexable model viewer” tab can be located in the Design Components > 3D Viewer Components > Indexable Model viewer (IMV).
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR7.png?raw=true" width="947" height="286" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_1.png?raw=true" />
     </a>
 </p>
           II.  Drag and drop the IMV tab to the desired side of the canvas after the view has been selected (Desktop or mobile view). It will display the default asset (the box asset) to show that the function is operational.
@@ -26,15 +23,15 @@
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR1.png?raw=true" width="1917" height="400" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_2.png?raw=true" />
     </a>
 </p>
-          III. On the right, click on the “configurator tab”. Here, the Model Swap Parameter and Add Index Model button will be visible.
+          III. On the right, click on the “PROPERTIES” tab. Then under the "Indexing Settings", we see the "Model Swap Parameter" and "Add Entry" button will be visible.
           <br />
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR2.png?raw=true" width="382" height="547" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_3.png?raw=true"  />
     </a>
 </p>
           IV.  The Model Swap Parameter is an editable class index that will house the names of all models within a particular indexable model operation. The default “swf” can be edited by the user if they wish.
@@ -42,13 +39,13 @@
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR8.png?raw=true" width="382" height="535" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_4.png?raw=true" />
     </a>
 </p>
-          V.  Click the Add Index Model to add desired indexable model(s). Here, the Index ID is spotted and is also editable by the user. In this tutorial, the Model Swap Parameter is replaced with the “user” while the Index ID is replaced with “a”. Since we intend to publish three models, we add two more Index models to make three and we replace their Index IDs with “b” and ”c” respectively. Img (a) and (b) shows the consecutive steps just explained
+          V.  Click the Add Index Model to add desired indexable model(s). Here, the Index ID is spotted and is also editable by the user. In this tutorial, the Model Swap Parameter is replaced with the “user” while the Index ID stays “1”. Since we intend to publish three models, we add two more Index models to make three and we don't need to replace their Index IDs since it numerically increases by 1 each time a new index model is added (but you are free to customize it as you wish). Img (a) and (b) shows the consecutive steps just explained
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR3.png?raw=true" width="350" height="532" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_5.png?raw=true" />
     </a>
 </p>
 <p align="center">
@@ -56,7 +53,7 @@
     </p>
 <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR9.png?raw=true" width="350" height="532" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_6.png?raw=true" />
     </a>
 </p>
 <p align="center">
@@ -67,7 +64,7 @@
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR4.png?raw=true" width="377" height="532" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/assets/78617644/4f94e097-c855-4ea9-b518-5479bc9c36c2" />
     </a>
 </p>
           VII.  The models get imported into the canvas. Then it can be published.
@@ -75,7 +72,7 @@
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR5.png?raw=true" width="1917" height="350" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_8.png?raw=true" />
     </a>
 </p>
           VIII.  Once the link is successfully deployed, you can specifically call each Indexed Model by adding “ ‘/’ + ‘?’ + ${Model Swap Parameter} + ‘=’ + ${Index ID}” then press enter.
@@ -83,23 +80,23 @@
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR10.png?raw=true" width="407" height="30" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_9.png?raw=true" />
     </a>
 </p>
-          So this makes our link become “https://new-swiftxr-project-3001.netlify.app/?user=a”. To check other models, just replace the ${Index ID} (which is the letter “a” in our case) with “b” or ”c” to individually view other indexed models.
+          So this makes our link becomes "https://bead-christmas.swiftxr.app/?user=1". To check other models, just replace the ${Index ID} (which is the number “1” in our case) with “2” or ”3” to individually view other indexed models.
           <br />
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR6.png?raw=true"  width="800" height="350"/>
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_10.png?raw=true" />
     </a>
 </p>
-          IX.  Now, in the case of website integration that the developer needs the iframe embedded code, it can be accessed by clicking the Embed project as HTML button close to the Publish button.
+          IX.  Now, in the case of website integration that the developer needs the iframe embedded code, it can be accessed by clicking the "copy embed" button on top of the web address modal (which appears after you have published your project).
           <br />
           &nbsp;
             <p align="center">
     <a href="">
-      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/SwiftXR13.png?raw=true" width="557" height="66" />
+      <img align="center" alt="GIF" src="https://github.com/swiftXR/indexable-viewer/blob/main/SwiftXR/new_swf_11.png?raw=true" />
     </a>
 </p>
       
