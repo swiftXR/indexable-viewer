@@ -1,16 +1,11 @@
 [//]: # "A sample website using SwiftXR Indexable viewer" 
 
-# What's new?
+# Indexable Model Viewer.
 
 [//]: # "## SwiftXR Overview"
 
 [//]: # "<p> SwiftXR is a fast no-code, cross-platform development solution for building lightweight interactive 3D, AR, and VR experiences. </p>"
 
-## New features/Updates.
-
-<p> These are technical updates and existing upgrades that will improve usability and user experience . They include; <p/>
-
-###  1. Indexable Model Viewer.
    <p> This is an Individual product publishing identification feature that enables each asset to be called uniquely to an assigned space when the project is published. To give a clearer explanation, we will be taking an e-commerce website as a case study. For every product that is on sale, the 3D models will be imported to the SwiftXR canvas, each model will have a model ID with a collective Model Swap Parameter. This means that at the start of the project, SwiftXR will automatically assign a value for the  Model Swap Parameter (this value can be changed by the user). This value assigned will serve as a housing for all the model IDs. Below is a detailed tutorial on how to publish projects of this nature ; </p>
           I.  To start with, the “indexable model viewer” tab can be located in the Design Components > 3D Viewer Components > Indexable Model viewer (IMV).
             <p align="center">
